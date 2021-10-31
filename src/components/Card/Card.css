@@ -1,0 +1,17 @@
+.pokemon-card{
+    display: flex;
+    flex-basis: 20%;
+    padding: 1rem;
+    border: 1px solid #fff;
+    margin: 1em;
+    @media(min-width: 40rem) {
+      width: 50%;
+    }
+    @media(min-width: 56rem) {
+      width: 33.3333%;
+    }
+}
+
+.pokemon-img{
+    margin: 0 auto;
+}

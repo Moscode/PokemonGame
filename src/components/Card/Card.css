@@ -30,9 +30,10 @@
 .pokemon-info{
   display: flex;
   justify-content: space-between;
+  margin-top: 5px;
 }
 
 .pokemon-weight, .pokemon-height, .pokemon-ability{
   border: 1px solid #fff;
-  padding: 5px;
+  padding: 10px;
 }

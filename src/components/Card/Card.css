@@ -1,5 +1,5 @@
 .pokemon-card{
-    display: flex;
+    display: blocks;
     flex-basis: 20%;
     padding: 1rem;
     border: 1px solid #fff;
@@ -14,4 +14,25 @@
 
 .pokemon-img{
     margin: 0 auto;
+    margin-left: 30%;
+}
+
+.pokemon-name{
+  display: block;
+  text-align: center;
+}
+
+.pokemon-types{
+  display: block;
+  text-align: center;
+}
+
+.pokemon-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.pokemon-weight, .pokemon-height, .pokemon-ability{
+  border: 1px solid #fff;
+  padding: 5px;
 }
